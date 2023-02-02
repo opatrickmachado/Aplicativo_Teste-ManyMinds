@@ -52,8 +52,8 @@
 			echo '<p>' . form_label('Informe o seu estado:') . '</p>';
 			echo form_input('estado',$colaboradores->estado,array('class' => 'campo'));
 
-			echo '<p>' . form_label('Informe o seu telefone:') . '</p>';
-			echo form_input('telefone',$colaboradores->telefone,array('class' => 'campo')) . '</br>';
+			echo '<p>' . form_label('Informe o seu celular:') . '</p>';
+			echo form_input('celular',$colaboradores->celular,array('class' => 'campo')) . '</br>';
 
 			echo form_submit('enviar','Salvar',array('class' => 'botao'));
 			echo form_close();
